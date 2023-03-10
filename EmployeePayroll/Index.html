@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EmployeePayRoll Form</title>
-    <link rel="stylesheet" href=".\Style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/payroll_form.css">
+  <link rel="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Employee payroll from</title>
 </head>
-<header>
-    <header class="header-content header">
+<body>
+  <header class="header-contrnt header">
     <div class="logo-content">
-        <img src="EmployeePayroll\assets\images\logo.png" alt="logo">
-    <div>
-    <span class="emp-text">EMPLOYEE</span>
-    <span class="emp-text emp-payroll">PAYROLL</span>
-        </div>
-        </div>
-    </header>
+      <img src="../assets/images/logo.png" alt="">
+      <div>
+        <span class="emp-text">EMPLOYEE</span><br>
+        <span class="emp-text emp payroll">PAYROLL</span>
+      </div>
+    </div>
+  </header>
+  <div class="form-content">
+    <form class="form" action="#" onsubmit="save();return false">
+       <div class="form-head">Employee Payroll form</div>
+       <div class="row-comtent">
+        <label class="lable-text" for="name">Name</label>
+        <input class="input" type="text" id="name" name="name" placeholder="your name.." required>
+       </div>
+    </form>
+  </div>
 </body>
 </html>
